@@ -1,6 +1,6 @@
-##Rest-Assured Java Test Automation Framework
+##  Rest-Assured Java Test Automation Framework
 
-###Tools & Libraries
+### Tools & Libraries
     * Java 8
     * JUnit 4
     * Maven 3.6.1
@@ -30,17 +30,17 @@
    Open a command prompt window and change directory to your Maven project.
    You should be in a directory that contains pom.xml file
   1. Build and Run the tests with clean
-     * mvn clean install
+     * `mvn clean install`
   2. Run without tests
-     * mvn clean install -DskipTests
+     * `mvn clean install -DskipTests`
   3. Run to generate Reports
-     * mvn site
+     * `mvn site`
   4. Environment of test execution can be specified 
      in environment.properties file or can be specified 
      from command line.
-     * mvn clean install -Denvironment=DEV
+     * `mvn clean install -Denvironment=DEV`
   5. Run all the test in a test class
-     *  mvn -Dtest=PostsTest test 
+     *  `mvn -Dtest=PostsTest test `
      where the validateGetAllPosts is a Test class with test method  
 
 #### Observations and Defects
