@@ -21,10 +21,10 @@
    
    Development [https://localhost:3000](https://localhost:3000)
    
-   Production  [https://jsonplaceholder.typicode.com](https://localhost:3000)
+   Production  [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
    
    By default the tests will execute in Production environment
-   There is a provision to switch the enivronment in which the tests should execute
+   There is a provision to switch the environment in which the tests should execute
     
 ####  How to run tests from command line
    Open a command prompt window and change directory to your Maven project.
@@ -41,7 +41,6 @@
      * `mvn clean install -Denvironment=DEV`
   5. Run all the test in a test class
      *  `mvn -Dtest=PostsTest test `
-     where the validateGetAllPosts is a Test class with test method  
 
 #### Observations and Defects
   1. API is un-versioned, versioning should be done for backward incompatible changes
