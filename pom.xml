@@ -13,7 +13,7 @@
         <rest-assured.version>4.0.0</rest-assured.version>
         <json-schema-validator.version>2.2.6</json-schema-validator.version>
         <json-schema-core.version>1.2.5</json-schema-core.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <jdk.source>1.8</jdk.source>
         <jdk.target>1.8</jdk.target>
